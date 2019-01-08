@@ -48,6 +48,13 @@ h6{
 	margin: 0 auto;
 }
 
+.row:after{
+	content:"";
+	height: 0;
+	display:block;
+	clear: both;
+}
+
 .hero{
 	background-image: url(../images/chica.jpg);
 		height:425px;
@@ -87,7 +94,8 @@ header .carrito a{
 	border-radius: 25px;
 }
 
-header .logo, header nav {
+header 
+.logo, header nav {
 	float:left;
 }
 header .carrito{
@@ -98,6 +106,68 @@ header .carrito a:hover{
 	color: red;
 	border-color: red;
 }
+/*FIN HEADER*/
+
+/*FOOTER*/
+
+footer{
+	background-color: #ebebeb;	
+}
+
+footer .footer-sup{
+	padding: 50px 0px;
+}
+
+footer .footer-inf{
+	padding: 20px 0px;
+	border-top: 1px solid black;
+}
+
+footer .columna{
+	float: left;
+	padding: 0px 60px 0px 0px;
+}
+
+footer .columna-small{
+	width: 20%;
+}
+
+footer .columna-big{
+	width: 60%;
+}
+
+footer .footer-sup .columna h3{
+	margin-bottom: 30px;
+}
+
+footer .footer-sup .columna-small .stores{
+	margin-bottom: 20px
+}
+
+footer .columna .social li {
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 5px;
+
+}
+
+footer a{
+	color: #646464;
+}
+
+footer a:hover{
+	color: red;
+}
+
+footer .footer-sup .columna-big div, footer .footer-sup .columna-big div h4{
+	padding: 0 0 10px 0;
+}
+
+footer .footer-sup nav ul li {
+	line-height: 25px;
+}
+
+
 
 
 
