@@ -167,7 +167,34 @@ footer .footer-sup nav ul li {
 	line-height: 25px;
 }
 
+/*FIN FOOTER*/
+/*MAIN*/
 
+main h1 {
+	display: none;
+}
+
+main .products{
+	padding: 40px 0;
+}
+
+main .products hr{
+	border-color: #eee;
+	width: 70%;
+}
+
+main .products h2{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: white;
+	width: 20%;
+	margin: 0 auto;
+	margin-top: -17px;
+
+}
+
+
+/*FIN MAIN*/
 
 
 
